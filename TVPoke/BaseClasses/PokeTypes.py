@@ -48,12 +48,7 @@ class Dark(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "DARK", "BUG", moves, imgPath)
 
-<<<<<<< HEAD
-class Psychic(Pokemon):
+class Ice(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
-        super().__init__(name, hp, "PSYCHIC", "DARK", moves, imgPath)
-=======
-class Bug(Pokemon):
-    def __init__(self, name, hp, moves, imgPath):
-        super().__init__(name, hp, "BUG", "Fire", moves, imgPath)
->>>>>>> a9b14c669d76dd44d6745c2256ee5b67304fa6ac
+        super().__init__(name, hp, "ICE", "FIRE", moves, imgPath)
+
