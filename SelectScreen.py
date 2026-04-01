@@ -111,7 +111,7 @@ class SelectedPokeImage(Image):
 
 class BackButton(Image):
     def __init__(self):
-        super().__init__((5, 85), 10, 13, './imgs/btkBttn.png')
+        super().__init__((5, 85), 10, 13, './imgs/bkBttn.png')
 
     def onClick(self, screen):
         screen.state["pageNum"] -= 1

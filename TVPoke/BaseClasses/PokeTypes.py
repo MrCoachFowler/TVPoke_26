@@ -27,7 +27,6 @@ class Fighting(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "FIGHTING", "PSYCIC", moves, imgPath)
 
-
 class Psychic(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "PSYCHIC", "DARK", moves, imgPath)
